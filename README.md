@@ -7,6 +7,11 @@ To view the application, download the program files and extract to your machine.
 In the project directory, you can run:
 
 ```
+npm install
+```
+This will allow you to install node packages.\
+
+```
 npm start
 ```
 
