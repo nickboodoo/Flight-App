@@ -63,5 +63,6 @@ Objective: Create a website that can query and display real-time flight informat
 
 ## Project Example Images
 
-![Homepage](ProjectExampleImages/AfterInput.png?raw=true)
 ![Results](ProjectExampleImages/HomePage.png?raw=true)
+
+![Homepage](ProjectExampleImages/AfterInput.png?raw=true)
