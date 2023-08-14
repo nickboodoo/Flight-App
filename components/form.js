@@ -5,7 +5,6 @@ This will eventually need to be placed outside of the application for security.
 Alternatively, user can supply an access key and we can place it into the program with listener or getInput. */
 var accessKey = "64e18e3e875b916a3ebf5c4fff28b740";
 
-
 /* Create asynchronous function that will fetch data from AviationStack API. */
 async function getData(url = "") {
   const response = await fetch(url, {
@@ -16,9 +15,8 @@ async function getData(url = "") {
   })
 
   /* Parse JSON response into native JavaScript objects. */
-  return response.json(); 
+  return response.json();
 }
-
 
 /* Create searchbar using React component to get Flight Number from user. Use Flight Number to create a query.
 Return list of flights by looping through queried JSON file and display results to user. */
@@ -54,12 +52,10 @@ class SearchForm extends React.Component {
     /* Prevent browser refresh */
     event.preventDefault();
 
-
-    /* Prevent the program from returning every flight in the database upon no input.  */
+    /* Prevent the program from returning every flight in the database upon no input. */
     if (testIATA == "") {
       return
     }
-
 
     /* Pass api access link, key and user input to getData function.
     Retrieve JSON file containing relevant flight data. */
@@ -82,7 +78,7 @@ class SearchForm extends React.Component {
           );
         }
       });
-  }  
+  }
 }
 
 export default SearchForm;

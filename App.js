@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import './App.css';
 import SearchForm from './components/form.js'
 
-
 /* Update document title. */
 function componentDidMount() {
   document.title = "Flight Data";
