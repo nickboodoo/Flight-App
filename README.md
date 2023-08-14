@@ -48,3 +48,8 @@ Objective: Create a website that can query and display real-time flight informat
 
  My main objective was to design and implement a project that would be evaluated well based on its visual design, website intuitiveness and code structure. I created a scalable website using JavaScript, HTML, CSS using ReactJS and NodeJS that will return data queried by the user. Specifically, the data in this case for the interview project will be flight data. The user will enter my website, type in their flight IATA number into the search bar, and flights relating to their flight number will be returned to them. I have been using DL437 as my IATA to test my program. For the time being, I have placed the API access key within my program, however once the 2-3 hour deadline is over, I will create a more secure solution.
 
+## Project Example Images
+
+![Homepage](ProjectExampleImages/Screenshot_20230814_003353.png?raw=true)
+![Results](ProjectExampleImages/Screenshot_20230814_003414.png?raw=true)
+
